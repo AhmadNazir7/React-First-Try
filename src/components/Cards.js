@@ -1,5 +1,5 @@
 import React from "react"
-import data from "../data"
+
 
 export default function Cards(props){
     let badgeText
@@ -16,7 +16,10 @@ export default function Cards(props){
 
             { badgeText && <div className="card--badgeText">{badgeText}</div>}
 
-            <img src={`../images/${props.coverImg}`} className="card--imag"/>
+            {/* Main Line of code for Images but it dosent work */}
+            {/* <img src={`../images/${props.coverImg}`} className="card--imag"/> */}
+
+            <img src={require('../images/pic4.jpg')}  className="card--imag"/>
 
             <div className="cards--stats">
 

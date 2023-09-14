@@ -38,7 +38,7 @@ export default [
             reviewCount: 17
         },
         location: "Online",
-        openSpots: 23
+        openSpots: 17
     },
 
     {
